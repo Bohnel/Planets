@@ -26,7 +26,7 @@ function createPlanetCard(planet) {
                             `
                             <div class="container">
                                 <div class="main">
-                                    <img src="/img/${name}.png" alt="${name}">
+                                    <img src="./img/${name}.png" alt="${name}">
                                     <div class="info">
                                         <h1 id="name">${name}</h1>
                                         <p id="infotxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum recusandae inventore ipsam quia earum iure ut, quis velit qui? Iusto libero qui, eos rerum magnam beatae blanditiis, repudiandae suscipit praesentium dolores, architecto facilis voluptates cum!</p>
