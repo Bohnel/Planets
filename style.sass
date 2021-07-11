@@ -34,7 +34,7 @@ header
         &:last-child
             margin-right: 4em
         a
-            padding: 1.5em 
+            margin: 3em
             font-weight: 700
             &:hover
                 color: $accent
@@ -83,15 +83,17 @@ header
             text-transform: capitalize 
     @media screen and ( max-width: 1100px )
         grid-auto-flow: row
-        grid-template-columns: 12em 12em
-        justify-content: space-around
-        margin: 0
+        grid-template-columns: 10em 10em
+        justify-content: center
+        margin: 2em 0
+        padding: 0
         .card
             margin-top: 1.5em
-            width: 8em
+            max-width: 8em
+            padding: .5em
         
 
 section
     height: 80vh
     width: 100%
-    padding-top: 12em
+    padding-top: 8em
