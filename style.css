@@ -5,7 +5,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100vh;
-  background: url(/img/bg-stars.svg), #261e2f;
+  background: url(./img/bg-stars.svg), #261e2f;
   color: #DAD8DD;
   font-family: "Space Mono", monospace;
 }
